@@ -17,7 +17,7 @@ What things you need to install the software and how to install them
 
 for downloading psycopg2 run this command
        pip install psycopg2
-###examples
+### examples
 I have provided output.txt file which you can refer to your matching output
 
 ### Working
