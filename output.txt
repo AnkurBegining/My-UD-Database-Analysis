@@ -1,0 +1,25 @@
+Q1(sol):(output)
+
+              title               | count
+----------------------------------+--------
+ Candidate is jerk, alleges rival | 338647
+ Bears love berries, alleges bear | 253801
+ Bad things gone, say good people | 170098
+(3 rows)
+
+Q2(sol):(output)
+
+          name          | count
+------------------------+--------
+ Ursula La Multa        | 507594
+ Rudolf von Treppenwitz | 423457
+ Anonymous Contributor  | 170098
+ Markoff Chaney         |  84557
+(4 rows)
+
+Q3(sol):output
+
+  alldays   |  e
+------------+------
+ 2016-07-17 | 2.26
+(1 row)
