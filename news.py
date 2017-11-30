@@ -5,12 +5,13 @@ import query
 
 
 def mysol(qr, str):
-    #connect with database
-    conn = psycopg2.connect("host='localhost' dbname='news' user='postgres' password= 'password'")
+    # connect with database
+    conn = psycopg2.connect(
+        "host='localhost' dbname='news' user='postgres' password='password'")
     c = conn.cursor()
-    #QUery execution
+    # QUery execution
     c.execute(qr)
-    #result
+    # result
     res = c.fetchall()
 
     if str == 'first':
@@ -25,9 +26,8 @@ def mysol(qr, str):
         print("\nOn which days did more than 1% of requests lead to errors?\n")
         for da, err in res:
             print("    {}  -  {} error".format(da, err))
-
-
     conn.close()
+
 
 def main():
     mysol(query.myfirstquery, 'first')
